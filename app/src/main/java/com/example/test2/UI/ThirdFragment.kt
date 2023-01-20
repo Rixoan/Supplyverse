@@ -5,7 +5,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.GridLayoutManager
+import com.example.test2.Adapters.ItemAdapter
 import com.example.test2.R
+import kotlinx.android.synthetic.main.fragment_third.*
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -41,6 +44,10 @@ class ThirdFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        recycler_view_produk_terbaru.apply {
+            layoutManager = GridLayoutManager(activity,2)
+            adapter = ItemAdapter(get_all_item(supplierlist))
+        }
 
     }
 

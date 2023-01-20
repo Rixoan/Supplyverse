@@ -7,6 +7,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.test2.Adapters.ItemAdapter
 import com.example.test2.Models.ItemDataModel
 import com.example.test2.Models.PromoDataModel
 import com.example.test2.Models.SupplierDataModel
@@ -138,12 +141,22 @@ class Home : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
+
         return inflater.inflate(R.layout.fragment_home, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        recycle_view_item.apply {
+            layoutManager = LinearLayoutManager(activity,LinearLayoutManager.HORIZONTAL,false)
+            adapter = ItemAdapter(get_all_item(supplierlist))
+        }
 
+        recycle_view_item_Rekomen.apply {
+            layoutManager = GridLayoutManager(activity,2)
+            adapter = ItemAdapter(get_all_item(supplierlist))
+        }
+        recycle_view_item_Rekomen.isNestedScrollingEnabled = false
         //frameLayout.isNestedScrollingEnabled = false
 
         //carousel view
@@ -160,7 +173,12 @@ class Home : Fragment() {
         cv_banner.pageCount = bannerlist.size
 
 
+
+
+
+
     }
+
     companion object {
         /**
          * Use this factory method to create a new instance of
