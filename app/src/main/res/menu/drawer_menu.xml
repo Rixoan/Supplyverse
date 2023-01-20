@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/first"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24" />
+    <item
+        android:id="@+id/second"
+        android:title="Chat"
+        android:icon="@drawable/ic_baseline_chat_24" />
+    <item
+        android:id="@+id/third"
+        android:title="Item"
+        android:icon="@drawable/ic_baseline_local_mall_24" />
+
+
+
+    <item
+        android:title="Account"
+        >
+
+        <menu>
+            <item
+                android:id="@+id/fifth"
+                android:title="Profile"
+                android:icon="@drawable/ic_baseline_person_24"/>
+
+        </menu>
+    </item>
+    <item
+        android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/fourth"
+                android:title="Support"
+                android:icon="@drawable/ic_baseline_help_24" />
+            <item
+                android:title="Setting"
+                android:icon="@drawable/ic_baseline_settings_24"/>
+        </menu>
+    </item>
+
+</menu>

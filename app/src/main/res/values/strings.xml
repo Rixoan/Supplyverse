@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Supplyverse</string>
+    <string name="Title">Supplyverse</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="deskripsi">Buah merupakan jenis makanan yang memiliki banyak kandungan gizi didalamnya seperti mineral dan vitamin yang sangat baik dan bisa dikonsumsi setiap hari. Jika dibandingkan dengan suplemen obat – obatan kimia yang ada di toko – toko atau apotik, buah – buahan jauh lebih aman untuk dikonsumsi tanpa ada efek samping dan untuk harga yang diberikan lebih murah jika dibandingkan dengan obat – obatan yang memiliki fungsi yang sama. Sehingga jika ingin sehat maka makanlah buah – buahan setiap hari. Buah – buahan menjadi salah satu bagian dari makanan yang terdiri dari empat sehat lima sempurna. Buah memiliki kandungan serta yang baik untuk melancarkan pencernaan. Sehingga banyak orang yang setiap hari mengkonsumsi buah – buahan dengan jumlah tertentu. Jadi buah – buahan ini selalu ada selama dibutuhkan. Hal ini membuat sentara penjualan buah – buahan sangat diperlukan dengan produk buah – buahan yang ada di dalam negeri atau buah impor.</string>
+    <string name="title_activity_supplier_detail">Supplier_DetailActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="upload_dokumen">Upload surat izin UMKM atau Supplier untuk meningkatkan proses transaksi lebih lancar</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+</resources>

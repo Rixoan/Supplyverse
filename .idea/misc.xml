@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Kuliah/Semester 6/Pemrograman Mobile Lanjutan/Project/Supplyverse/app/src/main/res/layout/activity_add_item.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 6/Pemrograman Mobile Lanjutan/Project/Supplyverse/app/src/main/res/layout/activity_cart_detail.xml" value="0.17844202898550723" />
+        <entry key="..\:/Kuliah/Semester 6/Pemrograman Mobile Lanjutan/Project/Supplyverse/app/src/main/res/layout/activity_login.xml" value="0.15443840579710144" />
+        <entry key="..\:/Kuliah/Semester 6/Pemrograman Mobile Lanjutan/Project/Supplyverse/app/src/main/res/layout/activity_main.xml" value="0.15443840579710144" />
+        <entry key="..\:/Kuliah/Semester 6/Pemrograman Mobile Lanjutan/Project/Supplyverse/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Kuliah/Semester 6/Pemrograman Mobile Lanjutan/Project/Supplyverse/app/src/main/res/layout/cart_list.xml" value="0.17300724637681159" />
+        <entry key="..\:/Kuliah/Semester 6/Pemrograman Mobile Lanjutan/Project/Supplyverse/app/src/main/res/layout/contact_list.xml" value="0.25" />
+        <entry key="..\:/Kuliah/Semester 6/Pemrograman Mobile Lanjutan/Project/Supplyverse/app/src/main/res/layout/contact_list_backup.xml" value="0.22" />
+        <entry key="..\:/Kuliah/Semester 6/Pemrograman Mobile Lanjutan/Project/Supplyverse/app/src/main/res/layout/drawer_nav_header.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 6/Pemrograman Mobile Lanjutan/Project/Supplyverse/app/src/main/res/layout/fragment_fifth.xml" value="0.25" />
+        <entry key="..\:/Kuliah/Semester 6/Pemrograman Mobile Lanjutan/Project/Supplyverse/app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 6/Pemrograman Mobile Lanjutan/Project/Supplyverse/app/src/main/res/layout/fragment_fourth.xml" value="0.11865942028985507" />
+        <entry key="..\:/Kuliah/Semester 6/Pemrograman Mobile Lanjutan/Project/Supplyverse/app/src/main/res/layout/fragment_home.xml" value="0.18" />
+        <entry key="..\:/Kuliah/Semester 6/Pemrograman Mobile Lanjutan/Project/Supplyverse/app/src/main/res/layout/fragment_homewith_tab.xml" value="0.17300724637681159" />
+        <entry key="..\:/Kuliah/Semester 6/Pemrograman Mobile Lanjutan/Project/Supplyverse/app/src/main/res/layout/fragment_recomend.xml" value="0.17300724637681159" />
+        <entry key="..\:/Kuliah/Semester 6/Pemrograman Mobile Lanjutan/Project/Supplyverse/app/src/main/res/layout/fragment_second.xml" value="0.25" />
+        <entry key="..\:/Kuliah/Semester 6/Pemrograman Mobile Lanjutan/Project/Supplyverse/app/src/main/res/layout/fragment_second2.xml" value="0.22" />
+        <entry key="..\:/Kuliah/Semester 6/Pemrograman Mobile Lanjutan/Project/Supplyverse/app/src/main/res/layout/fragment_third.xml" value="0.33" />
+        <entry key="..\:/Kuliah/Semester 6/Pemrograman Mobile Lanjutan/Project/Supplyverse/app/src/main/res/layout/histori_list.xml" value="0.33" />
+        <entry key="..\:/Kuliah/Semester 6/Pemrograman Mobile Lanjutan/Project/Supplyverse/app/src/main/res/layout/promo_list.xml" value="0.11865942028985507" />
+        <entry key="..\:/Kuliah/Semester 6/Pemrograman Mobile Lanjutan/Project/Supplyverse/app/src/main/res/layout/recomend_item.xml" value="0.11865942028985507" />
+        <entry key="..\:/Kuliah/Semester 6/Pemrograman Mobile Lanjutan/Project/Supplyverse/app/src/main/res/layout/supplier_list.xml" value="0.25" />
+        <entry key="..\:/Kuliah/Semester 6/Pemrograman Mobile Lanjutan/Project/Supplyverse/app/src/main/res/menu/drawer_menu.xml" value="0.2" />
+        <entry key="..\:/Kuliah/Semester 6/Pemrograman Mobile Lanjutan/Project/Supplyverse/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.21614583333333334" />
+        <entry key="..\:/Kuliah/Semester 6/Pemrograman Mobile Lanjutan/Project/test2/app/src/main/res/layout/activity_add_item.xml" value="0.22" />
+        <entry key="..\:/Kuliah/Semester 6/Pemrograman Mobile Lanjutan/Project/test2/app/src/main/res/layout/activity_item_detail.xml" value="0.1" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/New folder (2)/test2/app/src/main/res/layout/activity_add_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/New folder (2)/test2/app/src/main/res/layout/activity_cart.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/New folder (2)/test2/app/src/main/res/layout/activity_cart_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/New folder (2)/test2/app/src/main/res/layout/activity_item_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/New folder (2)/test2/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/New folder (2)/test2/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/New folder (2)/test2/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/New folder (2)/test2/app/src/main/res/layout/fragment_favorit.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/New folder (2)/test2/app/src/main/res/layout/fragment_fifth.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/New folder (2)/test2/app/src/main/res/layout/fragment_first.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/New folder (2)/test2/app/src/main/res/layout/fragment_fourth.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/New folder (2)/test2/app/src/main/res/layout/fragment_homewith_tab.xml" value="0.264" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/New folder (2)/test2/app/src/main/res/layout/fragment_recomend.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/New folder (2)/test2/app/src/main/res/layout/fragment_second.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/New folder (2)/test2/app/src/main/res/layout/fragment_third.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/New folder (2)/test2/app/src/main/res/layout/promo_list.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/New folder (2)/test2/app/src/main/res/layout/recomend_item.xml" value="0.264" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/New folder (2)/test2/app/src/main/res/menu/bottom_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/Supplyverse/app/src/main/res/drawable-anydpi/ic_arrowback_white.xml" value="0.2703125" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/Supplyverse/app/src/main/res/drawable/ic_vector_login1.xml" value="0.2703125" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/Supplyverse/app/src/main/res/layout/activity_add_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/Supplyverse/app/src/main/res/layout/activity_cart.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/Supplyverse/app/src/main/res/layout/activity_cart_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/Supplyverse/app/src/main/res/layout/activity_histori.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/Supplyverse/app/src/main/res/layout/activity_history_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/Supplyverse/app/src/main/res/layout/activity_item_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/Supplyverse/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/Supplyverse/app/src/main/res/layout/activity_main.xml" value="0.22407407407407406" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/Supplyverse/app/src/main/res/layout/activity_maps.xml" value="0.1453125" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/Supplyverse/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/Supplyverse/app/src/main/res/layout/activity_translucent.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/Supplyverse/app/src/main/res/layout/cart_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/Supplyverse/app/src/main/res/layout/custom_notification.xml" value="0.264" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/Supplyverse/app/src/main/res/layout/fragment_fifth.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/Supplyverse/app/src/main/res/layout/fragment_first.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/Supplyverse/app/src/main/res/layout/fragment_histori_blm_bayar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/Supplyverse/app/src/main/res/layout/fragment_histori_sdh_bayar.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/Supplyverse/app/src/main/res/layout/fragment_histori_selesai.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/Supplyverse/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/Supplyverse/app/src/main/res/layout/fragment_third.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/Supplyverse/app/src/main/res/layout/histori_list.xml" value="0.264" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/Supplyverse/app/src/main/res/layout/promo_list.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/Supplyverse/app/src/main/res/layout/recomend_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/Supplyverse/app/src/main/res/layout/supplier_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/test2/app/src/main/res/layout/activity_add_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/test2/app/src/main/res/layout/activity_cart.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(3)/test2/app/src/main/res/layout/activity_cart_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(4)/Supplyverse - loader - need Fix/app/src/main/res/layout/activity_add_item.xml" value="0.16927083333333334" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(4)/Supplyverse - loader - need Fix/app/src/main/res/layout/activity_cart_detail.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(4)/Supplyverse - loader - need Fix/app/src/main/res/layout/activity_histori.xml" value="0.264" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(4)/Supplyverse - loader - need Fix/app/src/main/res/layout/activity_item_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(4)/Supplyverse - loader - need Fix/app/src/main/res/layout/activity_main.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(4)/Supplyverse - loader - need Fix/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(4)/Supplyverse - loader - need Fix/app/src/main/res/layout/activity_supplier_detail.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(4)/Supplyverse - loader - need Fix/app/src/main/res/layout/contact_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(4)/Supplyverse - loader - need Fix/app/src/main/res/layout/contact_list_backup.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(4)/Supplyverse - loader - need Fix/app/src/main/res/layout/fragment_histori_blm_bayar.xml" value="0.14895833333333333" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(4)/Supplyverse - loader - need Fix/app/src/main/res/layout/fragment_homewith_tab.xml" value="0.1484375" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(4)/Supplyverse - loader - need Fix/app/src/main/res/layout/fragment_second.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(4)/Supplyverse - loader - need Fix/app/src/main/res/layout/fragment_third.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(4)/Supplyverse - loader - need Fix/app/src/main/res/layout/recomend_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(4)/Supplyverse - loader - need Fix/app/src/main/res/layout/recomend_item1.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(4)/Supplyverse - loader - need Fix/app/src/main/res/menu/bottom_menu.xml" value="0.16302083333333334" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(4)/Supplyverse - loader - need Fix/app/src/main/res/menu/drawer_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(6)/Supplyverse/app/src/main/res/layout/activity_cart_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(6)/Supplyverse/app/src/main/res/layout/activity_histori.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(6)/Supplyverse/app/src/main/res/layout/activity_history_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(6)/Supplyverse/app/src/main/res/layout/fragment_histori_selesai.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/Supplyverse(6)/Supplyverse/app/src/main/res/layout/histori_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/TKPL/Base/Supplyverse/app/src/main/res/layout/activity_add_item.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/TKPL/Base/Supplyverse/app/src/main/res/layout/activity_history_detail.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/TKPL/Base/Supplyverse/app/src/main/res/layout/activity_maps.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/TKPL/Base/Supplyverse/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/TKPL/Base/Supplyverse/app/src/main/res/layout/histori_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/drawable-anydpi/ic_cart.xml" value="0.2703125" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/drawable/banner_back.xml" value="0.2703125" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/drawable/button_back.xml" value="0.2703125" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/drawable/home_ad.xml" value="0.2703125" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/drawable/search_back.xml" value="0.2703125" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/drawable/tab_back.xml" value="0.2703125" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/drawable/tab_select_back.xml" value="0.2703125" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/drawable/tab_selector.xml" value="0.2703125" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/drawable/tab_unselect_back.xml" value="0.2703125" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/layout/activity_add_item.xml" value="0.23278985507246377" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/layout/activity_cart.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/layout/activity_cart_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/layout/activity_item_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/layout/activity_login.xml" value="0.2463768115942029" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/layout/activity_supplier_detail.xml" value="0.23278985507246377" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/layout/cart_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/layout/content_supplier_detail.xml" value="0.23278985507246377" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/layout/drawer_nav_header.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/layout/fragment_fifth.xml" value="0.23731884057971014" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/layout/fragment_fourth.xml" value="0.4" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/layout/fragment_home.xml" value="0.136" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/layout/fragment_homewith_tab.xml" value="0.264" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/layout/fragment_recomend.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/layout/fragment_second.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/layout/fragment_second2.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/layout/fragment_third.xml" value="0.2504528985507246" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/layout/promo_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/layout/recomend_item.xml" value="0.23143115942028986" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/layout/supplier_list.xml" value="0.2504528985507246" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/menu/bottom_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/menu/custom_actionbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ACER NITRO5/AndroidStudioProjects/test2/app/src/main/res/menu/drawer_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
