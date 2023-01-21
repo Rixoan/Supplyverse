@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.test2.Adapters.ItemAdapter
+import com.example.test2.Adapters.SupplierAdapter
 import com.example.test2.R
 import kotlinx.android.synthetic.main.fragment_third.*
 
@@ -43,7 +44,10 @@ class ThirdFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        recycler_view_supplier.apply {
+            layoutManager = GridLayoutManager(activity,2,GridLayoutManager.HORIZONTAL,false)
+            adapter = SupplierAdapter()
+        }
         recycler_view_produk_terbaru.apply {
             layoutManager = GridLayoutManager(activity,2)
             adapter = ItemAdapter(get_all_item(supplierlist))
