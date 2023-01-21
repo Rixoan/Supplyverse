@@ -1,5 +1,6 @@
 package com.example.test2.UI
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -8,6 +9,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.test2.Adapters.ItemAdapter
 import com.example.test2.Adapters.SupplierAdapter
+import com.example.test2.ITEMADD_REQUEST_CODE
+import com.example.test2.LOGIN_REQUEST_CODE
 import com.example.test2.R
 import kotlinx.android.synthetic.main.fragment_third.*
 
@@ -51,6 +54,17 @@ class ThirdFragment : Fragment() {
         recycler_view_produk_terbaru.apply {
             layoutManager = GridLayoutManager(activity,2)
             adapter = ItemAdapter(get_all_item(supplierlist))
+        }
+        floatingActionButton.setOnClickListener {
+            if(loginuser!=null){
+
+            }
+            else {
+                var intent = Intent(this.context, LoginActivity::class.java)
+//                    startActivity(intent)
+                startActivityForResult(intent, LOGIN_REQUEST_CODE)
+            }
+
         }
 
     }

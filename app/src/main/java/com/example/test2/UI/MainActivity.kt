@@ -1,5 +1,7 @@
 package com.example.test2.UI
 
+import android.app.Activity
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
@@ -8,14 +10,16 @@ import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.fragment.app.Fragment
 import com.example.test2.*
+import com.example.test2.Database.myDBHelper
 import com.example.test2.Models.UserDataModel
+import com.example.test2.SharedPrefHelper.login_sharePrefHelper
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.drawer_nav_header.view.*
 import kotlin.collections.ArrayList
 
 val userlist = getuser()
 var loginindex = -1
-var loginuser : UserDataModel? = userlist[0]
+var loginuser : UserDataModel? = null
 
 
 fun getuser():ArrayList<UserDataModel>{
@@ -30,6 +34,7 @@ fun getuser():ArrayList<UserDataModel>{
 
 class MainActivity : AppCompatActivity() {
 
+    var mySQLITEDB : myDBHelper? = null
 
     lateinit var toggle : ActionBarDrawerToggle
 
@@ -44,6 +49,9 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(myToolbar)
         supportActionBar!!.title = ""
         supportActionBar!!.elevation = 0f
+
+        mySQLITEDB = myDBHelper(this)
+        load_login_sharedpref()
 
 
         swipe.setOnRefreshListener {
@@ -73,6 +81,12 @@ class MainActivity : AppCompatActivity() {
                     appBarLayout.visibility = View.VISIBLE
                     makeCurrentFragment(second)
                 }
+                else{
+                    var intent = Intent(this, LoginActivity::class.java)
+//                    startActivity(intent)
+                    startActivityForResult(intent, LOGIN_REQUEST_CODE)
+                }
+                //Kode bawah untuk account, apabila belum login maka akan ke login page.
                 R.id.third_navbar -> if(true){makeCurrentFragment(third)
                     appBarLayout.visibility = View.VISIBLE}
                 else Toast.makeText(this,"Test!!!",Toast.LENGTH_SHORT).show()
@@ -83,7 +97,11 @@ class MainActivity : AppCompatActivity() {
                     appBarLayout.visibility = View.GONE
                     makeCurrentFragment(fifth)
                 }
-
+                else{
+                    var intent = Intent(this, LoginActivity::class.java)
+                    //startActivity(intent)
+                    startActivityForResult(intent, LOGIN_REQUEST_CODE)
+                }
             }
             true
         }
@@ -105,6 +123,11 @@ class MainActivity : AppCompatActivity() {
                     appBarLayout.visibility = View.VISIBLE
                     makeCurrentFragment(second)
                 }
+                else{
+                    var intent = Intent(this, LoginActivity::class.java)
+//                    startActivity(intent)
+                    startActivityForResult(intent, LOGIN_REQUEST_CODE)
+                }
                 //Kode bawah untuk account, apabila belum login maka akan ke login page.
                 R.id.third -> if(true){makeCurrentFragment(third)
                     appBarLayout.visibility = View.VISIBLE}
@@ -115,6 +138,11 @@ class MainActivity : AppCompatActivity() {
                 R.id.fifth -> if(loginuser!=null){
                     appBarLayout.visibility = View.GONE
                     makeCurrentFragment(fifth)
+                }
+                else{
+                    var intent = Intent(this, LoginActivity::class.java)
+//                    startActivity(intent)
+                    startActivityForResult(intent, LOGIN_REQUEST_CODE)
                 }
             }
             it.isChecked = true
@@ -176,6 +204,49 @@ class MainActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         //bottomNavigationView.selectedItemId = R.id.first
+    }
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if(requestCode== LOGIN_REQUEST_CODE){
+            if(resultCode == Activity.RESULT_OK){
+
+                finish()
+                startActivity(intent)
+                //Toast.makeText(this,"Selamat datang ${userlist[loginindex].username}",Toast.LENGTH_SHORT).show()
+
+            }
+        }
+    }
+
+    fun cart(view: View) {
+
+        if(loginuser!=null){
+            var intent = Intent(this, CartActivity::class.java)
+            startActivity(intent)
+        }
+        else{
+            var intent = Intent(this, LoginActivity::class.java)
+//                    startActivity(intent)
+            startActivityForResult(intent, LOGIN_REQUEST_CODE)
+
+
+
+        }
+
+        //Toast.makeText(this,"You click cart",Toast.LENGTH_SHORT).show()
+    }
+    fun load_login_sharedpref(){
+        var filename = "LoginFilePref"
+        var loginpref = login_sharePrefHelper(this,filename)
+        //loginindex = loginpref.index!!
+        var username = loginpref.username
+        var tmplist = mySQLITEDB?.viewallusername()
+        for (i in tmplist!!){
+            if (username == i.username){
+                loginuser = i
+            }
+        }
+
     }
 
 

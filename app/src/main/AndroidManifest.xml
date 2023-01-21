@@ -42,6 +42,14 @@
             android:label="Cart"
             android:parentActivityName=".UI.CartActivity" />
         <activity
+            android:name=".UI.RegisterActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+        <activity
+            android:name=".UI.LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+        <activity
             android:name=".UI.CartActivity"
             android:label="Cart"
             android:parentActivityName=".UI.MainActivity" />

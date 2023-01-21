@@ -48,6 +48,19 @@ class Item_DetailActivity : AppCompatActivity() {
         cvContainer.pageCount = imgList.size
         cvContainer.setImageListener(imagesListener)
 
+        tmbh_keranjang.setOnClickListener {
+            if(loginuser!=null){
+                Toast.makeText(this,"Berhasil ditambah ke cart",Toast.LENGTH_SHORT).show()
+            }
+            else{
+                var intent = Intent(this, LoginActivity::class.java)
+                startActivity(intent)
+            }
+
+
+
+
+        }
 
 
 
