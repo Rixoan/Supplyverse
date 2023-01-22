@@ -34,7 +34,35 @@ class Cart_DetailActivity : AppCompatActivity() {
         tv_cart_detail_harga.text = listharga
         tv_cart_detail_total.text = total.toString()
 
+        button_checkout.setOnClickListener {
+            if (rb_kredit.isChecked) {
+                Toast.makeText(
+                    this@Cart_DetailActivity, "Kamu berhasil melakukan pembayaran dengan kredit ",
+                    Toast.LENGTH_SHORT
+                ).show()
+                historilist.add(
+                    HistoriDataModel(intent_supplier!!,Calendar.getInstance().time.toString(),
+                        HistoriAdapter.VIEW_TYPE_SELESAI)
+                )
+
+            }
+            removefromcart()
+            finish()
+        }
 
     }
+
+    fun removefromcart(){
+        var index = 0
+        for(i in cart){
+            if(i.nama == intent_supplier?.nama){
+                cart.removeAt(index)
+                break
+
+            }
+            index++
+        }
+    }
+
 
 }

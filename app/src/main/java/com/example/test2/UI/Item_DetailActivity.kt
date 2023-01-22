@@ -48,6 +48,7 @@ class Item_DetailActivity : AppCompatActivity() {
         cvContainer.pageCount = imgList.size
         cvContainer.setImageListener(imagesListener)
 
+
         tmbh_keranjang.setOnClickListener {
             if(loginuser!=null){
                 for(i in cart){
