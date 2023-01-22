@@ -2,10 +2,14 @@ package com.example.test2.UI
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
+import com.example.test2.Adapters.HistoriAdapter
 import com.example.test2.EXTRA_SUPPLIER
+import com.example.test2.Models.HistoriDataModel
 import com.example.test2.Models.SupplierDataModel
 import com.example.test2.R
 import kotlinx.android.synthetic.main.activity_cart_detail.*
+import java.util.*
 
 
 class Cart_DetailActivity : AppCompatActivity() {
@@ -32,4 +36,5 @@ class Cart_DetailActivity : AppCompatActivity() {
 
 
     }
+
 }

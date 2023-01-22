@@ -9,7 +9,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.test2.Adapters.HistoriAdapter
 import com.example.test2.Adapters.ItemAdapter
+import com.example.test2.Models.HistoriDataModel
 import com.example.test2.Models.ItemDataModel
 import com.example.test2.Models.PromoDataModel
 import com.example.test2.Models.SupplierDataModel
@@ -21,6 +23,8 @@ import com.synnapps.carouselview.ImageListener
 var supplierlist = get_supplier()
 var cart = get_cart()
 var promo = get_promo()
+var historilist = get_histori()
+
 //val list = get_all_item(supplierlist)
 var img :Bitmap ?= null
 
@@ -107,6 +111,29 @@ fun get_all_item(supplierlist : ArrayList<SupplierDataModel>):ArrayList<ItemData
     }
     return  list
 }
+fun get_histori():ArrayList<HistoriDataModel>{
+    var historilist = ArrayList<HistoriDataModel>()
+    //contoh data
+    //historilist.add(HistoriDataModel(supplierlist[0],"20-12-2022","Pending"))
+    historilist.add(HistoriDataModel(supplierlist[1],"21-12-2022", HistoriAdapter.VIEW_TYPE_SELESAI))
+    historilist.add(HistoriDataModel(supplierlist[0],"21-12-2022", HistoriAdapter.VIEW_TYPE_SELESAI))
+
+    historilist.add(HistoriDataModel(supplierlist[2],"22-12-2022", HistoriAdapter.VIEW_TYPE_SDH_BAYAR))
+    historilist.add(HistoriDataModel(supplierlist[3],"23-12-2022", HistoriAdapter.VIEW_TYPE_BLM_BAYAR))
+
+    return historilist
+}
+
+fun get_histori_list_type(type : Int):ArrayList<HistoriDataModel>{
+    val list = ArrayList<HistoriDataModel>()
+    for(i in historilist){
+        if(i.status == type){
+            list.add(i)
+        }
+    }
+    return  list
+}
+
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER

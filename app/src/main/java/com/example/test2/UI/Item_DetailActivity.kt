@@ -71,15 +71,8 @@ class Item_DetailActivity : AppCompatActivity() {
             }
 
 
-
-
-        }
-
-
-
-
-
     }
 
 
+}
 }

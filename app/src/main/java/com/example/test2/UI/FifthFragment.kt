@@ -74,6 +74,12 @@ class FifthFragment : Fragment() {
             startActivity(activity?.intent)
         }
 
+        histori.setOnClickListener {
+            var intent = Intent(this.context, HistoriActivity::class.java)
+            startActivity(intent)
+        }
+
+
         if(loginuser!=null){
             usernameHolder.text = loginuser?.username
         }
