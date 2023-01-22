@@ -50,6 +50,19 @@ class Item_DetailActivity : AppCompatActivity() {
 
         tmbh_keranjang.setOnClickListener {
             if(loginuser!=null){
+                for(i in cart){
+                    if(i.nama == namasupplier){
+                        i.itemlist.add(ItemDataModel(namadetail!!,harga!!.toFloat(),namasupplier!!))
+                        Toast.makeText(this,"Berhasil ditambah ke cart",Toast.LENGTH_SHORT).show()
+
+                        return@setOnClickListener
+                    }
+
+                }
+                var tmp_cart = SupplierDataModel(namasupplier!!,"",ArrayList<ItemDataModel>())
+                tmp_cart.itemlist.add(ItemDataModel(namadetail!!,harga!!.toFloat(),namasupplier!!))
+                cart.add(tmp_cart)
+
                 Toast.makeText(this,"Berhasil ditambah ke cart",Toast.LENGTH_SHORT).show()
             }
             else{
@@ -61,6 +74,7 @@ class Item_DetailActivity : AppCompatActivity() {
 
 
         }
+
 
 
 
