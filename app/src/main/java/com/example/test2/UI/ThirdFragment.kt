@@ -56,7 +56,6 @@ class ThirdFragment : Fragment() {
             layoutManager = GridLayoutManager(activity,2)
             adapter = ItemAdapter(get_all_item(supplierlist))
         }
-
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
