@@ -70,8 +70,6 @@ class HistoriAdapter(var list : ArrayList<HistoriDataModel>): RecyclerView.Adapt
 
 
 
-
-
     }
 
 }
