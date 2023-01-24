@@ -65,6 +65,10 @@
             android:parentActivityName=".UI.MainActivity" />
 
         <activity
+            android:name=".UI.History_DetailActivity"
+            android:exported="true"
+            android:parentActivityName=".UI.HistoriActivity" />
+        <activity
             android:name=".UI.HistoriActivity"
             android:exported="true"
             android:parentActivityName=".UI.MainActivity" />

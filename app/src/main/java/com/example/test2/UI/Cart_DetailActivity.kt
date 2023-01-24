@@ -45,13 +45,14 @@ class Cart_DetailActivity : AppCompatActivity() {
                         HistoriAdapter.VIEW_TYPE_SELESAI)
                 )
 
-
+                
             }else {
                 Toast.makeText(
                     this@Cart_DetailActivity, "Kamu berhasil melakukan pembayaran nanti ",
                     Toast.LENGTH_SHORT
                 ).show()
                 historilist.add(HistoriDataModel(intent_supplier!!,Calendar.getInstance().time.toString(),HistoriAdapter.VIEW_TYPE_BLM_BAYAR))
+
 
             }
             removefromcart()
