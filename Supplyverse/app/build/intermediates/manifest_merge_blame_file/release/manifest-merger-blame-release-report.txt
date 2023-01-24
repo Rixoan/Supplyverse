@@ -1,0 +1,364 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.pert9"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the "MyLocation" functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Permission-section -->
+15-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:9:5-79
+15-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:10:5-67
+16-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:10:22-64
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:11:5-68
+17-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:11:22-65
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:12:5-79
+18-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+19-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:13:5-76
+19-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:13:22-73
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:14:5-81
+20-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:14:22-78
+21    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+21-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:15:5-81
+21-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:15:22-78
+22    <uses-permission android:name="android.permission.READ_CONTACTS" />
+22-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:16:5-72
+22-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:16:22-69
+23
+24    <uses-feature
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ricoc\.gradle\caches\transforms-3\349e3a77024a0c11fe1027cba7aa70b3\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+25        android:glEsVersion="0x00020000"
+25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ricoc\.gradle\caches\transforms-3\349e3a77024a0c11fe1027cba7aa70b3\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+26        android:required="true" />
+26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ricoc\.gradle\caches\transforms-3\349e3a77024a0c11fe1027cba7aa70b3\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+27
+28    <queries>
+28-->[androidx.test:runner:1.4.0] C:\Users\ricoc\.gradle\caches\transforms-3\6aa2624460a91b800b02a4d05e31ed0d\transformed\runner-1.4.0\AndroidManifest.xml:24:5-28:15
+29        <package android:name="androidx.test.orchestrator" />
+29-->[androidx.test:runner:1.4.0] C:\Users\ricoc\.gradle\caches\transforms-3\6aa2624460a91b800b02a4d05e31ed0d\transformed\runner-1.4.0\AndroidManifest.xml:25:9-62
+29-->[androidx.test:runner:1.4.0] C:\Users\ricoc\.gradle\caches\transforms-3\6aa2624460a91b800b02a4d05e31ed0d\transformed\runner-1.4.0\AndroidManifest.xml:25:18-59
+30        <package android:name="androidx.test.services" />
+30-->[androidx.test:runner:1.4.0] C:\Users\ricoc\.gradle\caches\transforms-3\6aa2624460a91b800b02a4d05e31ed0d\transformed\runner-1.4.0\AndroidManifest.xml:26:9-58
+30-->[androidx.test:runner:1.4.0] C:\Users\ricoc\.gradle\caches\transforms-3\6aa2624460a91b800b02a4d05e31ed0d\transformed\runner-1.4.0\AndroidManifest.xml:26:18-55
+31        <package android:name="com.google.android.apps.common.testing.services" />
+31-->[androidx.test:runner:1.4.0] C:\Users\ricoc\.gradle\caches\transforms-3\6aa2624460a91b800b02a4d05e31ed0d\transformed\runner-1.4.0\AndroidManifest.xml:27:9-83
+31-->[androidx.test:runner:1.4.0] C:\Users\ricoc\.gradle\caches\transforms-3\6aa2624460a91b800b02a4d05e31ed0d\transformed\runner-1.4.0\AndroidManifest.xml:27:18-80
+32    </queries> <!-- Permission will be merged into the manifest of the hosting app. -->
+33    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
+34    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+34-->[com.google.android.play:core:1.9.1] C:\Users\ricoc\.gradle\caches\transforms-3\6412a8238b499d44e775fae1efe10621\transformed\jetified-core-1.9.1\AndroidManifest.xml:8:3-74
+34-->[com.google.android.play:core:1.9.1] C:\Users\ricoc\.gradle\caches\transforms-3\6412a8238b499d44e775fae1efe10621\transformed\jetified-core-1.9.1\AndroidManifest.xml:8:20-72
+35
+36    <application
+36-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:18:5-139:19
+37        android:allowBackup="true"
+37-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:19:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.6.0] C:\Users\ricoc\.gradle\caches\transforms-3\3d9d0320da2017f49ed20d325d17bec3\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+39        android:icon="@mipmap/ic_launcher"
+39-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:20:9-43
+40        android:label="@string/app_name"
+40-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:21:9-41
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:22:9-54
+42        android:supportsRtl="true"
+42-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:23:9-35
+43        android:theme="@style/Theme.Test2" >
+43-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:24:9-43
+44
+45        <!--
+46             The API key for Google Maps-based APIs is defined as a string resource.
+47             (See the file "res/values/google_maps_api.xml").
+48             Note that the API key is linked to the encryption key used to sign the APK.
+49             You need a different API key for each encryption key, including the release key that is used to
+50             sign the APK for publishing.
+51             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+52        -->
+53        <meta-data
+53-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:34:9-36:55
+54            android:name="com.google.android.geo.API_KEY"
+54-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:35:13-58
+55            android:value="@string/google_maps_key" />
+55-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:36:13-52
+56
+57        <activity
+57-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:38:9-42:61
+58            android:name="com.example.test2.UI.MapsActivity"
+58-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:39:13-44
+59            android:exported="true"
+59-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:40:13-36
+60            android:label="@string/title_activity_maps"
+60-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:41:13-56
+61            android:parentActivityName="com.example.test2.UI.MainActivity" />
+61-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:42:13-58
+62
+63        <service
+63-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:44:9-48:72
+64            android:name="com.example.test2.Services.My_LocationJobService"
+64-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:45:13-59
+65            android:enabled="true"
+65-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:46:13-35
+66            android:exported="true"
+66-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:47:13-36
+67            android:permission="android.permission.BIND_JOB_SERVICE" />
+67-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:48:13-69
+68
+69        <receiver
+69-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:50:9-53:39
+70            android:name="com.example.test2.Receivers.DailyCart_NotificationReceiver"
+70-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:51:13-69
+71            android:enabled="true"
+71-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:52:13-35
+72            android:exported="true" />
+72-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:53:13-36
+73        <receiver
+73-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:54:9-57:39
+74            android:name="com.example.test2.Receivers.Promo_NotificationReceiver"
+74-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:55:13-65
+75            android:enabled="true"
+75-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:56:13-35
+76            android:exported="true" />
+76-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:57:13-36
+77
+78        <activity
+78-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:59:9-62:64
+79            android:name="com.example.test2.UI.History_DetailActivity"
+79-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:60:13-54
+80            android:exported="true"
+80-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:61:13-36
+81            android:parentActivityName="com.example.test2.UI.HistoriActivity" />
+81-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:62:13-61
+82        <activity
+82-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:63:9-66:61
+83            android:name="com.example.test2.UI.HistoriActivity"
+83-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:64:13-47
+84            android:exported="true"
+84-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:65:13-36
+85            android:parentActivityName="com.example.test2.UI.MainActivity" />
+85-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:66:13-58
+86
+87        <service
+87-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:68:9-71:72
+88            android:name="com.example.test2.Services.NotificationService"
+88-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:69:13-57
+89            android:exported="false"
+89-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:70:13-37
+90            android:permission="android.permission.BIND_JOB_SERVICE" />
+90-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:71:13-69
+91
+92        <receiver
+92-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:73:9-81:20
+93            android:name="com.example.test2.Receivers.InternetReceiver"
+93-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:74:13-55
+94            android:enabled="true"
+94-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:75:13-35
+95            android:exported="true" >
+95-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:76:13-36
+96            <intent-filter>
+96-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:77:13-80:29
+97                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+97-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:78:17-79
+97-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:78:25-76
+98                <!-- <action android:name="android.intent.action.AIRPLANE_MODE"/> -->
+99            </intent-filter>
+100        </receiver>
+101        <receiver
+101-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:82:9-85:39
+102            android:name="com.example.test2.Receivers.DownloadReciver"
+102-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:83:13-54
+103            android:enabled="true"
+103-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:84:13-35
+104            android:exported="true" />
+104-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:85:13-36
+105
+106        <service
+106-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:87:9-90:72
+107            android:name="com.example.test2.Services.DownloadService"
+107-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:88:13-53
+108            android:exported="false"
+108-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:89:13-37
+109            android:permission="android.permission.BIND_JOB_SERVICE" />
+109-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:90:13-69
+110        <service
+110-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:91:9-94:39
+111            android:name="com.example.test2.Services.Add_ImageService"
+111-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:92:13-54
+112            android:enabled="true"
+112-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:93:13-35
+113            android:exported="true" />
+113-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:94:13-36
+114
+115        <activity
+115-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:96:9-100:61
+116            android:name="com.example.test2.UI.Cart_DetailActivity"
+116-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:97:13-51
+117            android:exported="true"
+117-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:98:13-36
+118            android:label="Cart"
+118-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:99:13-33
+119            android:parentActivityName="com.example.test2.UI.CartActivity" />
+119-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:100:13-58
+120        <activity
+120-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:101:9-105:61
+121            android:name="com.example.test2.UI.Add_ItemActivity"
+121-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:102:13-48
+122            android:exported="true"
+122-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:103:13-36
+123            android:label="Add Item"
+123-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:104:13-37
+124            android:parentActivityName="com.example.test2.UI.MainActivity" />
+124-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:105:13-58
+125        <activity
+125-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:106:9-109:84
+126            android:name="com.example.test2.UI.RegisterActivity"
+126-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:107:13-48
+127            android:exported="true"
+127-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:108:13-36
+128            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+128-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:109:13-81
+129        <activity
+129-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:110:9-113:84
+130            android:name="com.example.test2.UI.LoginActivity"
+130-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:111:13-45
+131            android:exported="true"
+131-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:112:13-36
+132            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+132-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:113:13-81
+133        <activity
+133-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:114:9-117:61
+134            android:name="com.example.test2.UI.CartActivity"
+134-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:115:13-44
+135            android:label="Cart"
+135-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:116:13-33
+136            android:parentActivityName="com.example.test2.UI.MainActivity" />
+136-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:117:13-58
+137        <activity
+137-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:118:9-122:61
+138            android:name="com.example.test2.UI.Supplier_DetailActivity"
+138-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:119:13-55
+139            android:exported="true"
+139-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:120:13-36
+140            android:label="Supplier Detail"
+140-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:121:13-44
+141            android:parentActivityName="com.example.test2.UI.MainActivity" />
+141-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:122:13-58
+142        <activity
+142-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:123:9-127:61
+143            android:name="com.example.test2.UI.Item_DetailActivity"
+143-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:124:13-51
+144            android:exported="true"
+144-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:125:13-36
+145            android:label="Detail"
+145-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:126:13-35
+146            android:parentActivityName="com.example.test2.UI.MainActivity" />
+146-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:127:13-58
+147        <activity
+147-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:128:9-138:20
+148            android:name="com.example.test2.UI.MainActivity"
+148-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:129:13-44
+149            android:exported="true"
+149-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:130:13-36
+150            android:launchMode="singleTop"
+150-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:131:13-43
+151            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" >
+151-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:132:13-81
+152            <intent-filter>
+152-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:133:13-137:29
+153                <action android:name="android.intent.action.MAIN" />
+153-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:134:17-69
+153-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:134:25-66
+154
+155                <category android:name="android.intent.category.LAUNCHER" />
+155-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:136:17-77
+155-->D:\Kuliah\Semester 6\Pemrograman Mobile Lanjutan\Project\Supplyverse\app\src\main\AndroidManifest.xml:136:27-74
+156            </intent-filter>
+157        </activity>
+158        <!-- Needs to be explicitly declared on P+ -->
+159        <uses-library
+159-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ricoc\.gradle\caches\transforms-3\349e3a77024a0c11fe1027cba7aa70b3\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+160            android:name="org.apache.http.legacy"
+160-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ricoc\.gradle\caches\transforms-3\349e3a77024a0c11fe1027cba7aa70b3\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+161            android:required="false" />
+161-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ricoc\.gradle\caches\transforms-3\349e3a77024a0c11fe1027cba7aa70b3\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+162
+163        <activity
+163-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ricoc\.gradle\caches\transforms-3\1637af0dd88f86bffd7a3c63d010d863\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+164            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+164-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ricoc\.gradle\caches\transforms-3\1637af0dd88f86bffd7a3c63d010d863\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+165            android:exported="false"
+165-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ricoc\.gradle\caches\transforms-3\1637af0dd88f86bffd7a3c63d010d863\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+166            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+166-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ricoc\.gradle\caches\transforms-3\1637af0dd88f86bffd7a3c63d010d863\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+167
+168        <meta-data
+168-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ricoc\.gradle\caches\transforms-3\b51f57b31fe94d4e9e239e2c09dd5fb9\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+169            android:name="com.google.android.gms.version"
+169-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ricoc\.gradle\caches\transforms-3\b51f57b31fe94d4e9e239e2c09dd5fb9\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+170            android:value="@integer/google_play_services_version" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+170-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\ricoc\.gradle\caches\transforms-3\b51f57b31fe94d4e9e239e2c09dd5fb9\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+171        <activity
+171-->[com.google.android.play:core:1.9.1] C:\Users\ricoc\.gradle\caches\transforms-3\6412a8238b499d44e775fae1efe10621\transformed\jetified-core-1.9.1\AndroidManifest.xml:12:5-271
+172            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+172-->[com.google.android.play:core:1.9.1] C:\Users\ricoc\.gradle\caches\transforms-3\6412a8238b499d44e775fae1efe10621\transformed\jetified-core-1.9.1\AndroidManifest.xml:12:15-102
+173            android:enabled="false"
+173-->[com.google.android.play:core:1.9.1] C:\Users\ricoc\.gradle\caches\transforms-3\6412a8238b499d44e775fae1efe10621\transformed\jetified-core-1.9.1\AndroidManifest.xml:12:103-126
+174            android:exported="false"
+174-->[com.google.android.play:core:1.9.1] C:\Users\ricoc\.gradle\caches\transforms-3\6412a8238b499d44e775fae1efe10621\transformed\jetified-core-1.9.1\AndroidManifest.xml:12:127-151
+175            android:launchMode="singleInstance"
+175-->[com.google.android.play:core:1.9.1] C:\Users\ricoc\.gradle\caches\transforms-3\6412a8238b499d44e775fae1efe10621\transformed\jetified-core-1.9.1\AndroidManifest.xml:12:204-239
+176            android:process=":playcore_missing_splits_activity"
+176-->[com.google.android.play:core:1.9.1] C:\Users\ricoc\.gradle\caches\transforms-3\6412a8238b499d44e775fae1efe10621\transformed\jetified-core-1.9.1\AndroidManifest.xml:12:152-203
+177            android:stateNotNeeded="true" />
+177-->[com.google.android.play:core:1.9.1] C:\Users\ricoc\.gradle\caches\transforms-3\6412a8238b499d44e775fae1efe10621\transformed\jetified-core-1.9.1\AndroidManifest.xml:12:240-269
+178        <activity
+178-->[com.google.android.play:core:1.9.1] C:\Users\ricoc\.gradle\caches\transforms-3\6412a8238b499d44e775fae1efe10621\transformed\jetified-core-1.9.1\AndroidManifest.xml:13:5-226
+179            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+179-->[com.google.android.play:core:1.9.1] C:\Users\ricoc\.gradle\caches\transforms-3\6412a8238b499d44e775fae1efe10621\transformed\jetified-core-1.9.1\AndroidManifest.xml:13:15-95
+180            android:enabled="false"
+180-->[com.google.android.play:core:1.9.1] C:\Users\ricoc\.gradle\caches\transforms-3\6412a8238b499d44e775fae1efe10621\transformed\jetified-core-1.9.1\AndroidManifest.xml:13:96-119
+181            android:exported="false"
+181-->[com.google.android.play:core:1.9.1] C:\Users\ricoc\.gradle\caches\transforms-3\6412a8238b499d44e775fae1efe10621\transformed\jetified-core-1.9.1\AndroidManifest.xml:13:120-144
+182            android:stateNotNeeded="true"
+182-->[com.google.android.play:core:1.9.1] C:\Users\ricoc\.gradle\caches\transforms-3\6412a8238b499d44e775fae1efe10621\transformed\jetified-core-1.9.1\AndroidManifest.xml:13:145-174
+183            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+183-->[com.google.android.play:core:1.9.1] C:\Users\ricoc\.gradle\caches\transforms-3\6412a8238b499d44e775fae1efe10621\transformed\jetified-core-1.9.1\AndroidManifest.xml:13:175-224
+184        <service
+184-->[com.google.android.play:core:1.9.1] C:\Users\ricoc\.gradle\caches\transforms-3\6412a8238b499d44e775fae1efe10621\transformed\jetified-core-1.9.1\AndroidManifest.xml:16:5-18:15
+185            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+185-->[com.google.android.play:core:1.9.1] C:\Users\ricoc\.gradle\caches\transforms-3\6412a8238b499d44e775fae1efe10621\transformed\jetified-core-1.9.1\AndroidManifest.xml:16:14-95
+186            android:enabled="false"
+186-->[com.google.android.play:core:1.9.1] C:\Users\ricoc\.gradle\caches\transforms-3\6412a8238b499d44e775fae1efe10621\transformed\jetified-core-1.9.1\AndroidManifest.xml:16:96-119
+187            android:exported="true" >
+187-->[com.google.android.play:core:1.9.1] C:\Users\ricoc\.gradle\caches\transforms-3\6412a8238b499d44e775fae1efe10621\transformed\jetified-core-1.9.1\AndroidManifest.xml:16:120-143
+188            <meta-data
+188-->[com.google.android.play:core:1.9.1] C:\Users\ricoc\.gradle\caches\transforms-3\6412a8238b499d44e775fae1efe10621\transformed\jetified-core-1.9.1\AndroidManifest.xml:17:7-108
+189                android:name="com.google.android.play.core.assetpacks.versionCode"
+189-->[com.google.android.play:core:1.9.1] C:\Users\ricoc\.gradle\caches\transforms-3\6412a8238b499d44e775fae1efe10621\transformed\jetified-core-1.9.1\AndroidManifest.xml:17:18-84
+190                android:value="10901" />
+190-->[com.google.android.play:core:1.9.1] C:\Users\ricoc\.gradle\caches\transforms-3\6412a8238b499d44e775fae1efe10621\transformed\jetified-core-1.9.1\AndroidManifest.xml:17:85-106
+191        </service>
+192        <service
+192-->[com.google.android.play:core:1.9.1] C:\Users\ricoc\.gradle\caches\transforms-3\6412a8238b499d44e775fae1efe10621\transformed\jetified-core-1.9.1\AndroidManifest.xml:19:5-147
+193            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+193-->[com.google.android.play:core:1.9.1] C:\Users\ricoc\.gradle\caches\transforms-3\6412a8238b499d44e775fae1efe10621\transformed\jetified-core-1.9.1\AndroidManifest.xml:19:14-96
+194            android:enabled="false"
+194-->[com.google.android.play:core:1.9.1] C:\Users\ricoc\.gradle\caches\transforms-3\6412a8238b499d44e775fae1efe10621\transformed\jetified-core-1.9.1\AndroidManifest.xml:19:97-120
+195            android:exported="false" />
+195-->[com.google.android.play:core:1.9.1] C:\Users\ricoc\.gradle\caches\transforms-3\6412a8238b499d44e775fae1efe10621\transformed\jetified-core-1.9.1\AndroidManifest.xml:19:121-145
+196    </application>
+197
+198</manifest>

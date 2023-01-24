@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.test2.EXTRA_INDEX_HISTORI
 import com.example.test2.Models.HistoriDataModel
 import com.example.test2.R
+import com.example.test2.UI.History_DetailActivity
 import kotlinx.android.synthetic.main.histori_list.view.*
 
 class HistoriAdapter(var list : ArrayList<HistoriDataModel>): RecyclerView.Adapter<RecyclerView.ViewHolder>() {
@@ -68,9 +69,20 @@ class HistoriAdapter(var list : ArrayList<HistoriDataModel>): RecyclerView.Adapt
         var status = view.tv_histori_status
         var histori : HistoriDataModel?= null
 
+        init {
+            view.card_view_histori.setOnClickListener { v: View ->
+                val position = adapterPosition
+                //Toast.makeText(itemView.context,"You click on supplier_ ${suppliername.text} ",
+                //    Toast.LENGTH_SHORT).show()
+                var intent = Intent(itemView.context, History_DetailActivity::class.java)
+                //intent.putExtra(EXTRA_INDEX_HISTORI, list[position])  // dengan menambahkan parameter tambahan untuk digunakan pada histori holder
+                intent.putExtra(EXTRA_INDEX_HISTORI, histori)
+
+                itemView.context.startActivity(intent)
 
 
-
+            }
+        }
 
     }
 
