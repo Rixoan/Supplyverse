@@ -45,13 +45,13 @@ class Cart_DetailActivity : AppCompatActivity() {
                         HistoriAdapter.VIEW_TYPE_SELESAI)
                 )
 
+
             }
             removefromcart()
             finish()
         }
 
     }
-
     fun removefromcart(){
         var index = 0
         for(i in cart){
@@ -63,6 +63,5 @@ class Cart_DetailActivity : AppCompatActivity() {
             index++
         }
     }
-
 
 }
