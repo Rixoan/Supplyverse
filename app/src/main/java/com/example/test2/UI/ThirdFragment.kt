@@ -56,6 +56,18 @@ class ThirdFragment : Fragment() {
             layoutManager = GridLayoutManager(activity,2)
             adapter = ItemAdapter(get_all_item(supplierlist))
         }
+
+        floatingActionButton.setOnClickListener {
+            if(loginuser!=null){
+                var intent = Intent(this.context, Add_ItemActivity::class.java)
+                startActivityForResult(intent, ITEMADD_REQUEST_CODE)
+            }
+            else {
+                var intent = Intent(this.context, LoginActivity::class.java)
+                startActivityForResult(intent, LOGIN_REQUEST_CODE)
+            }
+
+        }
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {

@@ -63,16 +63,21 @@
             android:exported="true"
             android:label="Detail"
             android:parentActivityName=".UI.MainActivity" />
-
         <activity
             android:name=".UI.History_DetailActivity"
             android:exported="true"
             android:parentActivityName=".UI.HistoriActivity" />
+
         <activity
             android:name=".UI.HistoriActivity"
             android:exported="true"
             android:parentActivityName=".UI.MainActivity" />
 
+        <activity
+            android:name=".UI.Add_ItemActivity"
+            android:exported="true"
+            android:label="Add Item"
+            android:parentActivityName=".UI.MainActivity" />
         <service
             android:name=".Services.DownloadService"
             android:exported="false"
